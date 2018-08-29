@@ -1,0 +1,23 @@
+@import 'colors';
+
+body {
+  margin: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.rotate {
+  animation: rotate 0.5s linear;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}

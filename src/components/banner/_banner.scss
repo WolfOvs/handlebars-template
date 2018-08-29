@@ -1,0 +1,27 @@
+.banner {
+  position:relative;
+  display:inline-block;
+  width:100%;
+  .balls-banner {
+    width:100%;
+    height:300px;
+    display:block;
+  }
+  .text {
+    position:absolute;
+    top:100px;
+    left:100px;
+    h1 {
+      font-size: 50px;
+      color:#fff;
+      //font-family: 'Berkshire Swash', cursive;
+      font-family: 'Inconsolata', monospace;
+    }
+    h2 {
+      font-size: 50px;
+      color:#fff;
+      font-family: 'Inconsolata', monospace;
+      background-color:#000;
+    }
+  }
+}
